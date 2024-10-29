@@ -1,0 +1,449 @@
+/*Miguel e Sara*/
+@font-face {
+    font-family: 'IM Fell Great Primer';
+    src: url('fontes/IM_Fell_Great_Primer/IMFellGreatPrimer-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html {
+margin: 0px;
+padding: 0px;
+font-family: 'IM Fell Great Primer';
+background-image: url('img/fundo.png');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 100%;
+} 
+
+.box1{
+font-size: 27px;
+display: flex;
+justify-content: center;
+margin-top: 5%;
+
+color: rgb(255, 255, 255);
+}
+
+.box1 a{
+
+display: flex;
+background-color: #047d86;
+padding: 30px;
+text-decoration: none;
+color: white; 
+font-size: 30px;
+margin: 10px;
+width: 250px;
+border-radius: 25px;
+    }
+
+.box1 ul{
+background-color: #04868f;
+display: flex;
+flex-direction: column;
+padding: 40px;
+border-radius: 10px;
+box-shadow: 0 0 10px black;
+}
+    
+
+.box1 a:hover{
+background-color: rgb(255, 255, 255);
+color: #047d86;
+transition: 0.5s;
+transform: scale(1.1);
+}
+
+.titulo{
+margin: 30px;
+font-size: 45px;
+
+}
+/*Erick e Cauã*/
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #047d86;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.h1_logo{
+    margin: 0px;
+    color: #fff;
+}
+
+.imagemLogo{
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+    border-radius: 40px;
+}
+
+.fita_direita{
+    background-color: #04868f;
+    width: 200px;
+    height: 93.4vh;
+    float: right;
+    margin: 0;
+    margin-left: 30px;
+}
+
+.h1_relatorios{
+    text-align: center;
+    color: white;
+}
+
+.botaoRelatorio{
+    display: flex;
+    text-align: center;
+    border: 2px solid #047d86;
+    background-color: #047d86;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    width:  270px;
+}
+
+.formRelatorio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid transparent;
+    margin: 100px auto;
+    border-radius: 20px;
+    width: 250px;
+    height: 300px;
+    transform: scale(1.25);
+    color: white;
+
+}
+
+.divForm{
+background-color: #04868f;
+display: flex;
+flex-direction: column;
+border-radius: 10px;
+margin: auto;
+box-shadow: 0 0 10px;
+width: 400px;
+}
+
+.pForm{
+    text-align: justify;
+    margin: 20px;
+}
+
+/*Nicolas e João*/
+.cacha{
+   
+     display: flex;
+    flex-direction: column;  
+
+}
+
+.cacha label{
+text-align: left;
+margin-top: 30px;
+}
+
+.boxDoCadastro {
+ 
+    width: 700px;
+    height: 720px;
+    background-color: #047d86;
+    color: #D6DEE2; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+    margin: 50px auto ;
+                            input, textarea{
+                            border-radius: 5px;
+                            border: none;
+                            background-color: #D6DEE2;
+                            height: 23px;
+                      
+                            }
+}
+
+
+.dataContainer {
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 20px; 
+    margin-top: 20px;
+}
+
+.menor {
+    
+    flex: 1; 
+    margin-right: 10px;
+}
+.menor:last-child {
+    margin-right: 0; 
+}
+
+.botaoDCadastrar{
+
+    display: flex;
+    flex-direction: row;
+    border: none;
+    border-radius: 10px; 
+    padding: 10px;
+    text-align: center;  
+    font-size: 16px; 
+    margin: 5px;
+    width: 90px;
+    height: 40px;
+    margin-top: -50px;
+}
+
+.botoesContainer{
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin: 60px;
+justify-content: space-between;
+text-align: center;
+
+}
+
+
+.footer {
+    background-color: #04868f;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/*estoque */
+
+.caxa{
+    width: 1200px; 
+    height: 800px; 
+    background-color: #047d86; 
+    color: white; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px; 
+    font-family: Arial, sans-serif;
+}
+
+/*Gabrielly e Roger*/
+
+.logo {
+    font-size: 2.5em;
+    color: #fff;
+    user-select: none;
+    
+}
+.logo img {
+    position: absolute;
+    top: 40px; /* Ajuste conforme necessário */
+    left: 30px; /* Ajuste conforme necessário */
+    height: 60px; /* Ajuste a altura conforme necessário */
+    width: 60px; /* Mantém a proporção da imagem */
+    border-radius: 50px;
+
+}
+.navegacao a {
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.copyright {
+    position: absolute; /* ou fixed, dependendo da necessidade */
+    top: 0%; /* Ajuste conforme necessário */
+    left: 0%; /* Ajuste conforme necessário */
+    transform: translate(-50%, -50%); /* Centraliza a imagem */
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: -750px; /* Ajuste conforme necessário */
+
+}
+.dumbdevs {
+    
+    position: absolute; /* ou fixed, dependendo da necessidade */
+    top: 139%; /* Ajuste conforme necessário */
+    left: 48%; /* Ajuste conforme necessário */
+    transform: translate(-50%, -50%); /* Centraliza a imagem */
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: -700px; /* Ajuste conforme necessário */ 
+
+}
+.capa {
+    width: 400px;
+    background: #047d86;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin: auto;
+ 
+}
+.capa h1 {
+    font-size: 36px;
+    text-align: center;
+}
+.capa .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid whitesmoke;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder {
+    color: #fff;
+}
+ 
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+ 
+.lembrar-mais-tarde {
+display: flex;
+justify-content: space-between;
+font-size: 16.5px;
+margin: -5px 0 15px;
+}
+.lembrar-mais-tarde label input {
+    accent-color: #fff;
+    margin-right: 2px;
+}
+.lembrar-mais-tarde a {
+    color: #fff;
+    text-decoration: none;
+}
+.lembrar-mais-tarde a:hover {
+    text-decoration: underline;
+}
+.capa .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Adiciona transição suave */
+
+}
+.capa .btn:hover {
+    background-color: #b3d9db;
+    color: #fff; /* Cor do texto ao passar o mouse */
+}
+
+.capa .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+ 
+.register-link p a:hover {
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.fita_direita{
+    background-color: #04868f;
+    width: 200px;
+    height: 89.4vh;
+    float: right;
+    margin: 0;
+    margin-left: 30px;
+}
+.box1{
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    color: rgb(255, 255, 255);
+    margin-left: 10%;
+    }
+    .textcenter{
+        text-align: center;
+        text-size-adjust: 10px;
+    }
+/*media screen*/
+
+@media screen and (max-width: 768px) {
+
+body, html{
+background-size: auto;
+}
+.box1{
+transform: scale(0.8);
+}
+
+.divForm{
+margin-top: 20px;
+transform: scale(0.8);
+margin: auto;
+}
+
+.boxDoCadastro{
+transform: scale(0.9);
+margin: auto;
+max-width: 300px;   
+    
+                
+}
+}

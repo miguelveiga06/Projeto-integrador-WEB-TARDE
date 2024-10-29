@@ -1,0 +1,213 @@
+/*Miguel e Sara*/
+@font-face {
+    font-family: 'IM Fell Great Primer';
+    src: url('fontes/IM_Fell_Great_Primer/IMFellGreatPrimer-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html {
+margin: 0px;
+padding: 0px;
+font-family: 'IM Fell Great Primer';
+background-image: url('img/fundo.png');
+background-size: cover;
+background-repeat: repeat;
+background-position: center;
+height: 100%;
+}   
+
+.box1{
+font-size: 27px;
+display: flex;
+justify-content: center;
+margin-top: 5%;
+color: rgb(255, 255, 255);
+margin-left: 10%;
+}
+
+.box1 a{
+
+display: flex;
+background-color: #047d86;
+padding: 30px;
+text-decoration: none;
+color: white; 
+font-size: 30px;
+margin: 10px;
+width: 250px;
+border-radius: 7px;
+    }
+
+.box1 ul{
+background-color: #04868f;
+display: flex;
+flex-direction: column;
+padding: 40px;
+border-radius: 10px;
+box-shadow: 0 0 10px black;
+}
+    
+
+.box1 a:hover{
+background-color: rgb(255, 255, 255);
+color: #047d86;
+transition: 0.5s;
+transform: scale(1.1);
+}
+
+.titulo{
+margin: 30px;
+font-size: 45px;
+}
+/*Erick e Cauã*/
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #047d86;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.h1_logo{
+    margin: 0px;
+}
+
+.imagemLogo{
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+    border-radius: 40px;
+}
+
+.fita_direita{
+    background-color: #04868f;
+    width: 200px;
+    height: 89.4vh;
+    float: right;
+    margin: 0;
+    margin-left: 30px;
+}
+
+.h1_relatorios{
+    text-align: center;
+    color: white;
+}
+
+.botaoRelatorio{
+    display: flex;
+    text-align: center;
+    border: 2px solid #047d86;
+    background-color: #047d86;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.formRelatorio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid transparent;
+    margin: 100px auto;
+    border-radius: 20px;
+    width: 250px;
+    height: 200px;
+    transform: scale(1.25);
+    color: white;
+
+}
+
+.divForm{
+background-color: #04868f;
+display: flex;
+flex-direction: column;
+border-radius: 10px;
+margin: 30px auto;
+box-shadow: 0 0 10px;
+width: 400px;
+}
+
+.pForm{
+    text-align: justify;
+    margin: 20px;
+}
+/*Miguel e Pipizinho*/
+
+
+/*Nicolas e João*/
+.cacha{
+   
+     display: flex;
+    flex-direction: column;  
+
+}
+
+.cacha label{
+text-align: left;
+margin-top: 30px;
+}
+
+.boxDoCadastro {
+ 
+    width: 700px;
+    height: 900px;
+    background-color: #047d86;
+    color: #D6DEE2; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+    margin: 70px auto ;
+                            input, textarea{
+                            border-radius: 5px;
+                            border: none;
+                            background-color: #D6DEE2;
+                            height: 23px;
+                      
+                            }
+}
+
+.menor{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botaoDCadastrar{
+
+    display: flex;
+    flex-direction: row;
+    border: none;
+    border-radius: 10px; 
+    padding: 15px;
+    text-align: center;  
+    font-size: 16px; 
+    margin: -20px;
+    width: 100px;
+}
+
+.botoesContainer{
+display: flex;
+flex-direction: row;
+justify-content: center;
+justify-content: space-between;
+margin: 70px;
+}
+
+.textoAbaixoBotao {
+    text-align: center; /* Centraliza o texto */
+    color: white; /* Cor do texto */
+    margin-top: 10px; /* Espaço acima do texto */
+}
+ 
+.boxDoCadastro input:hover{
+}
+
+/*Gabrielly e Roger*/

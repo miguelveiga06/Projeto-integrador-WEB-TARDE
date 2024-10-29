@@ -1,0 +1,230 @@
+/*Roger Olive*/
+@font-face {
+    font-family: 'IM Fell Great Primer';
+    src: url('fontes/IM_Fell_Great_Primer/IMFellGreatPrimer-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body, html {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'IM Fell Great Primer';
+    background-image: url('img/fundo.png');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    height: 100%;
+    }   
+
+header {
+    font-family: 'IM Fell Great Primer';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    background-color: #047d86;
+    border: 2px solid rgba(225, 255, 255, .2);
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo {
+    font-size: 2.5em;
+    color: #fff;
+    user-select: none;
+    
+}
+.logo img {
+    position: absolute;
+    top: 40px; /* Ajuste conforme necessário */
+    left: 30px; /* Ajuste conforme necessário */
+    height: 60px; /* Ajuste a altura conforme necessário */
+    width: 60px; /* Mantém a proporção da imagem */
+    border-radius: 50px;
+
+}
+.navegacao a {
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.copyright {
+    position: absolute; /* ou fixed, dependendo da necessidade */
+    top: 0%; /* Ajuste conforme necessário */
+    left: 0%; /* Ajuste conforme necessário */
+    transform: translate(-50%, -50%); /* Centraliza a imagem */
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: -750px; /* Ajuste conforme necessário */
+
+}
+.dumbdevs {
+    
+    position: absolute; /* ou fixed, dependendo da necessidade */
+    top: 139%; /* Ajuste conforme necessário */
+    left: 48%; /* Ajuste conforme necessário */
+    transform: translate(-50%, -50%); /* Centraliza a imagem */
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: -700px; /* Ajuste conforme necessário */ 
+
+}
+.capa {
+    width: 400px;
+    background: #047d86;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin: auto;
+ 
+}
+.capa h1 {
+    font-size: 36px;
+    text-align: center;
+}
+.capa .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid whitesmoke;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder {
+    color: #fff;
+}
+ 
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+ 
+.lembrar-mais-tarde {
+display: flex;
+justify-content: space-between;
+font-size: 16.5px;
+margin: -5px 0 15px;
+}
+.lembrar-mais-tarde label input {
+    accent-color: #fff;
+    margin-right: 2px;
+}
+.lembrar-mais-tarde a {
+    color: #fff;
+    text-decoration: none;
+}
+.lembrar-mais-tarde a:hover {
+    text-decoration: underline;
+}
+.capa .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Adiciona transição suave */
+
+}
+.capa .btn:hover {
+    background-color: #b3d9db;
+    color: #fff; /* Cor do texto ao passar o mouse */
+}
+
+.capa .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+ 
+.register-link p a:hover {
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.fita_direita{
+    background-color: #04868f;
+    width: 200px;
+    height: 89.4vh;
+    float: right;
+    margin: 0;
+    margin-left: 30px;
+}
+.box1{
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    color: rgb(255, 255, 255);
+    margin-left: 10%;
+    }
+    /*media screen*/
+
+    @media screen and (max-width: 768px) {
+
+        body, html{
+        background-size: auto;
+        }
+        .box1{
+        transform: scale(0.8);
+        }
+        .login-box {
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-radius: 0;
+}
+        .input-box {
+width: 290px;
+        }
+    }
+    
+         
+    
+
+
+
+
+
+
+
